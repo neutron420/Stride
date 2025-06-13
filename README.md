@@ -1,4 +1,4 @@
-Stride - Fitness & Wellness Tracker App
+# Stride - Fitness & Wellness Tracker App
 
 **Stride** is a modern and intuitive cross-platform mobile application designed using React Native. It helps users track their fitness journey and wellness goals with a clean, engaging interface and smart user flow.
 
@@ -42,8 +42,6 @@ Stride - Fitness & Wellness Tracker App
 ## 🛠️ Tech Stack
 
 - **React Native** (with Expo or CLI)
-- **Firebase Authentication** (or custom auth)
-- **Google Sign-In**, **Apple Sign-In**
 - Charting libraries: `react-native-chart-kit`, `VictoryNative`, etc.
 - State management: Context API / Redux / Zustand (as per preference)
 
@@ -51,7 +49,7 @@ Stride - Fitness & Wellness Tracker App
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/stride.git
+   git clone https://github.com/Ritesh-04coder/stride.git
    cd stride
    ```
 2. Install dependencies:
