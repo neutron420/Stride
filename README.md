@@ -1,70 +1,99 @@
-# Stride - Fitness & Wellness Tracker App
+<div align="center">
 
-**Stride** is a modern and intuitive cross-platform mobile application designed using React Native. It helps users track their fitness journey and wellness goals with a clean, engaging interface and smart user flow.
+# Stride 🏃
 
-## 📱 App Features
+<br/>
 
-### 1. Splash Screen
-- Animated logo (stride or pulse icon)
-- App name “Stride” and motivational tagline: _“Your journey to health starts here.”_
-- Background gradient (light blue to green)
-- Auto-navigation to next screen after a short delay
+<div>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+</div>
 
-### 2. Login & Signup
-- Tab-based switch between Login and Signup
-- **Signup Form**: Name, Email, Password, Confirm Password, Age (age >= 13 validation)
-- **Login Form**: Email, Password, “Forgot Password?” link
-- Social login with Google and Apple
+<br/>
 
-### 3. Profile Setup
-- Select Gender (inclusive options)
-- Choose Fitness Goal: Lose Weight, Build Muscle, Stay Active
-- Choose Activity Level: Sedentary, Light, Moderate, Active
-- Interactive, card-based UI
+**A modern, cross-platform mobile application built with Expo and React Native to help users track their progress and achieve their goals.**
 
-### 4. Home Dashboard
-- Personalized greeting (e.g., “Good morning, Alex”)
-- Metrics: Steps, Calories, Workouts (ring/bar indicators)
-- Daily motivational quote
-- Quick actions: Log Workout, Add Meal, Track Sleep
-- Bottom navigation for Home, Log, Stats, Profile
+<p>
+  <a href="#-about-the-project">About</a> •
+  <a href="#-key-features">Features</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-contributing">Contributing</a> •
+  <a href="#-license">License</a>
+</p>
 
-### 5. Statistics Screen
-- Toggle between Weekly / Monthly / Yearly view
-- Line/Bar charts for: Steps, Calories, Sleep, Weight
-- Filters, zoom, and smooth animations
+[**Download App (Link to your app store page)**] · [**Report a Bug**] · [**Request a Feature**]
 
-### 6. Settings & Profile Page
-- Profile picture and name
-- Options: Edit Profile, Notifications, Privacy, Connected Devices (Fitbit, Apple Health)
-- Logout button at the bottom
+</div>
 
-## 🛠️ Tech Stack
+## 🌟 About The Project
 
-- **React Native** (with Expo or CLI)
-- Charting libraries: `react-native-chart-kit`, `VictoryNative`, etc.
-- State management: Context API / Redux / Zustand (as per preference)
+Stride is a sleek and intuitive mobile application designed to empower users on their fitness or personal growth journey. Whether it's tracking daily steps, monitoring workout consistency, or building new habits, Stride provides a beautiful and simple interface to visualize progress and stay motivated. Built with the latest in mobile development technology, it offers a fast, responsive, and seamless experience on both iOS and Android.
+
+### 🛠️ Built With
+
+This project leverages a modern, cross-platform technology stack for rapid development and a native-like user experience.
+
+* **Framework:** [React Native](https://reactnative.dev/)
+* **Platform:** [Expo](https://expo.dev/)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Routing:** [Expo Router](https://expo.github.io/router/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) via [NativeWind](https://www.nativewind.dev/)
+* **UI Components:** [React Native Elements](https://reactnativeelements.com/)
+
+## ✨ Key Features
+
+* **Cross-Platform:** Single codebase that runs natively on both iOS and Android devices.
+* **Modern UI/UX:** A clean, stylish, and user-friendly interface designed with Tailwind CSS.
+* **File-Based Routing:** Simplified and organized navigation powered by Expo Router.
+* **Type-Safe Codebase:** Enhanced developer experience and fewer bugs thanks to TypeScript.
+* **Fast Development Cycle:** Built with Expo for rapid iteration, and easy builds.
 
 ## 🚀 Getting Started
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Ritesh-04coder/stride.git
-   cd stride
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-3. Run the app:
-   ```bash
-   npx react-native run-android
-   # or for iOS
-   npx react-native run-ios
-   ```
+To get a local copy up and running for development and testing, follow these steps.
 
-## 📄 License
+### Prerequisites
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+You will need Node.js (version 18 or higher), a package manager (npm, yarn, or pnpm), and the Expo Go app on your mobile device or an emulator.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/neutron420/Stride.git](https://github.com/neutron420/Stride.git)
+    cd Stride
+    ```
+
+2.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```sh
+    npx expo start
+    ```
+
+4.  **Launch the app:**
+    * Scan the QR code with the Expo Go app on your iOS or Android phone.
+    * Or, press `a` in the terminal to open on an Android emulator, or `i` to open on an iOS simulator.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## 📜 License
+
+Distributed under the MIT License.
+
+Project Link: [https://github.com/neutron420/Stride](https://github.com/neutron420/Stride)
